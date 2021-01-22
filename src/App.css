@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+html {
+  background-color: lightgray;
+  max-height: fit-content;
+  padding-bottom: 50px;
+}
+.pagenum {
+  border: 0.6px solid red;
+  font-size: 20px;
+  margin-right: 1rem;
+  margin-top: 0;
+  width: 8px;
+  background-color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
+.pagenum:first-child {
+  margin-left: 1rem;
+}
+.pages {
+  color: white;
+  font-size: 20px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.search_filter_wrapper {
+  border: 2px solid blue;
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  max-width: fit-content;
+}
+.search {
+  margin: 0;
+  padding: 0;
+}
+.search_bar {
+  width: 23rem;
+  height: 40px;
+  margin-top: 0;
+  margin-left: 0;
+}
+.search_bar:hover {
+  border: 2px solid red;
+}
+.data {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 2px;
+  background-color: #009fdf;
+  width: fit-content;
+}
+.filterby {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.filter {
+  margin-top: -2rem;
+}
+.gen {
+  margin-right: 12rem;
+  margin-left: 24.3rem;
+}
+
+::placeholder {
+  padding: 2px 3px;
+}
+.genders {
+  margin-top: 0;
+  margin-left: 40rem;
+  margin-top: -2rem;
+}
+.paymtd {
+  margin-left: 3rem;
+}
+.container {
+  display: flex;
+
+  margin-top: 3rem;
+  align-self: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0rem;
+}
+label {
+  margin: 0 3px;
+}
+th {
+  border: 1px solid seashell;
+  margin-right: 6px;
+  padding: 1px 1px 1px 1px;
+  margin-bottom: 1rem;
+}
+td {
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+  border: solid 1px #ffffff;
+  padding: 1px 1px 1px 1px;
+}
+tr {
+  margin: 4px 0;
+}
+.column {
+  width: fit-content;
+}
